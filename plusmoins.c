@@ -107,6 +107,9 @@ int		main()
 
 	srand(time(NULL));
 	printf("Welcome to Guess the Mystery Number !\n");
+	//	Il y a effectivement un while inutile ici dans le fichier contenu dans le .zip. 
+	//	J'avais oublié de le supprimer après avoir fait quelques tests... Et comme il n'influe en rien sur le reste, 
+	//	je l'ai pas vu en compilant/testant :p
 	printf("Do you want to play alone or with a friend ?\n");
 	printf("\t1: play alone\n\tanything else: play with a friend\n");
 	scanf("%1c", &opt);
