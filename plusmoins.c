@@ -107,7 +107,6 @@ int		main()
 
 	srand(time(NULL));
 	printf("Welcome to Guess the Mystery Number !\n");
-	while (opt != '1' && opt != '2')
 	printf("Do you want to play alone or with a friend ?\n");
 	printf("\t1: play alone\n\tanything else: play with a friend\n");
 	scanf("%1c", &opt);
