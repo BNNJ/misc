@@ -105,9 +105,3 @@ int		ft_printf(const char *format, ...)
 	va_end(ap);
 	return (ret);
 }
-
-int		main()
-{
-	ft_printf("hey %c oh\n", 'H');
-	return 0;
-}
