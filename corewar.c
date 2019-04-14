@@ -89,7 +89,6 @@ static int	get_opt(char *arg, t_vm *vm)
 static t_champ	*new_champ(char *arg, int fd)
 {
 	t_champ	*champ;
-	off_t	file_size;
 
 	if (!(champ = ft_memalloc(sizeof(t_champ))))
 	{
