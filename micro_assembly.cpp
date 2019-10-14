@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-	int R[4],n,immediate;  cin>>R[0]>>R[1]>>R[2]>>R[3]>>n;
-	cin.ignore(1);
+	int R[4],n,immediate;
+	cin>>R[0]>>R[1]>>R[2]>>R[3]>>n; cin.ignore(1);
 	istringstream reader;
 	auto operand = [&]() -> int&
 	{
