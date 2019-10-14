@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	int R[4],n,immediate;
-	cin>>R[0]>>R[1]>>R[2]>>R[3]>>n; cin.ignore(1);
+	cin >> R[0] >> R[1] >> R[2] >> R[3] >> n; cin.ignore(1);
 	istringstream reader;
 	auto operand = [&]() -> int&
 	{
@@ -24,7 +24,8 @@ int main()
 	for(int ip=0;ip<code.size();++ip)
 	{
 		reader = istringstream(code[ip]);
-		string inst;  reader>>inst;
+		string inst;
+		reader >> inst;
 		switch(inst[0])
 		{
 			case 'M': { int &dst=operand(); dst=operand(); } break;
